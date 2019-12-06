@@ -1,4 +1,4 @@
-﻿Log file open, 12/05/19 19:53:58
+﻿Log file open, 12/05/19 21:22:18
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: crossyroad
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.074485
+LogStats: Stats thread started at 0.065770
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,982 +157,575 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
-[2019.12.06-03.53.58:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.12.06-03.53.58:906][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.12.06-03.53.58:907][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.12.06-03.53.58:907][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.12.06-03.53.58:907][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.12.06-03.53.58:907][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.12.06-03.53.58:907][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.12.06-03.53.58:907][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.12.06-03.53.58:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
-[2019.12.06-03.53.58:907][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
-[2019.12.06-03.53.58:909][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.06-03.53.58:909][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.06-03.53.58:910][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.06-03.53.58:910][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.06-03.53.58:910][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.12.06-03.53.58:914][  0]LogHAL: Display: Platform has ~ 16 GB [16899125248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.12.06-03.53.58:914][  0]LogInit: Going up to parent DeviceProfile []
-[2019.12.06-03.53.58:914][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.06-03.53.58:914][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.12.06-03.53.58:915][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
-[2019.12.06-03.53.58:915][  0]LogInit: Computer: DESKTOP-O0M13GT
-[2019.12.06-03.53.58:915][  0]LogInit: User: ToeKnee
-[2019.12.06-03.53.58:916][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.12.06-03.53.58:916][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.12.06-03.53.58:916][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx)
-[2019.12.06-03.53.58:916][  0]LogMemory: Platform Memory Stats for Windows
-[2019.12.06-03.53.58:916][  0]LogMemory: Process Physical Memory: 101.56 MB used, 101.56 MB peak
-[2019.12.06-03.53.58:916][  0]LogMemory: Process Virtual Memory: 101.31 MB used, 101.31 MB peak
-[2019.12.06-03.53.58:916][  0]LogMemory: Physical Memory: 7518.47 MB used,  8597.79 MB free, 16116.26 MB total
-[2019.12.06-03.53.58:916][  0]LogMemory: Virtual Memory: 4686.55 MB used,  134213040.00 MB free, 134217728.00 MB total
-[2019.12.06-03.53.58:918][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.12.06-03.53.58:939][  0]LogInit: Using OS detected language (en-US).
-[2019.12.06-03.53.58:939][  0]LogInit: Using OS detected locale (en-US).
-[2019.12.06-03.53.58:940][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.12.06-03.53.59:101][  0]LogInit: Setting process to per monitor DPI aware
-[2019.12.06-03.53.59:136][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.12.06-03.53.59:136][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.12.06-03.53.59:336][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.06-03.53.59:336][  0]LogD3D11RHI: D3D11 adapters:
-[2019.12.06-03.53.59:781][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (Feature Level 11_0)
-[2019.12.06-03.53.59:781][  0]LogD3D11RHI:       4021/0/8058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.12.06-03.53.59:793][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.12.06-03.53.59:793][  0]LogD3D11RHI:       128/0/8058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.12.06-03.53.59:795][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.12.06-03.53.59:795][  0]LogD3D11RHI:       0/0/8058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.12.06-03.53.59:795][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.12.06-03.53.59:830][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.12.06-03.53.59:830][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2019.12.06-03.53.59:830][  0]LogWindows: EnumDisplayDevices:
-[2019.12.06-03.53.59:830][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2019.12.06-03.53.59:830][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.12.06-03.53.59:831][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.12.06-03.53.59:831][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.12.06-03.53.59:831][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti with Max-Q Design
-[2019.12.06-03.53.59:831][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.12.06-03.53.59:831][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.12.06-03.53.59:831][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
-[2019.12.06-03.53.59:868][  0]LogD3D11RHI: Async texture creation enabled
-[2019.12.06-03.53.59:880][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.12.06-03.54.00:177][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.12.06-03.54.00:187][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.12.06-03.54.00:196][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.12.06-03.54.00:205][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.12.06-03.54.00:213][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.12.06-03.54.00:223][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.12.06-03.54.00:233][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.12.06-03.54.00:241][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.12.06-03.54.00:246][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.12.06-03.54.00:278][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.12.06-03.54.00:280][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.12.06-03.54.00:297][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.12.06-03.54.00:297][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.12.06-03.54.00:311][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.12.06-03.54.00:311][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.12.06-03.54.00:318][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.12.06-03.54.00:325][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.12.06-03.54.00:331][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.12.06-03.54.00:339][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.12.06-03.54.00:362][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.12.06-03.54.00:362][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.12.06-03.54.00:362][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.12.06-03.54.00:371][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.12.06-03.54.00:424][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Intermediate/Shaders/WorkingDirectory/4772/).
-[2019.12.06-03.54.00:424][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Toe-Knee/AppData/Local/Temp/UnrealShaderWorkingDir/A10B66B642215239E3ABAA8D6C790FC4/'.
-[2019.12.06-03.54.00:427][  0]LogXGEController: Cleaning working directory: C:/Users/Toe-Knee/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.12.06-03.54.00:427][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.12.06-03.54.00:427][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.12.06-03.54.00:427][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.12.06-03.54.00:996][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.12.06-03.54.01:044][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Toe-Knee/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.06-03.54.01:044][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Toe-Knee/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.12.06-03.54.01:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.12.06-03.54.01:044][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.12.06-03.54.01:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.06-03.54.01:044][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.12.06-03.54.01:056][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.12.06-03.54.01:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.06-03.54.01:056][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.12.06-03.54.01:057][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Toe-Knee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.12.06-03.54.01:057][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.12.06-03.54.01:057][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.12.06-03.54.01:081][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.12.06-03.54.01:084][  0]LogSlate: Using FreeType 2.6.0
-[2019.12.06-03.54.01:084][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.12.06-03.54.01:138][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2019.12.06-03.54.01:409][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.06-03.54.01:557][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.12.06-03.54.01:557][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.12.06-03.54.01:557][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.12.06-03.54.01:557][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.12.06-03.54.01:557][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.12.06-03.54.01:565][  0]LogNetVersion: crossyroad 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3055071226)
-[2019.12.06-03.54.01:963][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.048380 seconds
-[2019.12.06-03.54.01:969][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.12.06-03.54.01:969][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.12.06-03.54.01:969][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.12.06-03.54.02:772][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.12.06-03.54.02:775][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.12.06-03.54.02:827][  0]SourceControl: Source control is disabled
-[2019.12.06-03.54.02:827][  0]SourceControl: Source control is disabled
-[2019.12.06-03.54.02:828][  0]SourceControl: Source control is disabled
-[2019.12.06-03.54.02:829][  0]SourceControl: Source control is disabled
-[2019.12.06-03.54.02:931][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.12.06-03.54.03:123][  0]LogOcInput: OculusInput pre-init called
-[2019.12.06-03.54.03:132][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.12.06-03.54.03:132][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.12.06-03.54.03:205][  0]LogEngine: Initializing Engine...
-[2019.12.06-03.54.03:206][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.06-03.54.03:207][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.12.06-03.54.03:417][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.12.06-03.54.03:432][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.12.06-03.54.03:444][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.12.06-03.54.03:557][  0]LogInit: FAudioDevice initialized.
-[2019.12.06-03.54.03:557][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.12.06-03.54.03:613][  0]LogDerivedDataCache: Saved boot cache 0.06s 73MB C:/Users/Toe-Knee/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.06-03.54.03:625][  0]LogInit: Texture streaming: Enabled
-[2019.12.06-03.54.03:651][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.12.06-03.54.03:706][  0]LogInit: Transaction tracking system initialized
-[2019.12.06-03.54.03:738][  0]BlueprintLog: New page: Editor Load
-[2019.12.06-03.54.03:814][  0]LocalizationService: Localization service is disabled
-[2019.12.06-03.54.04:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/' took 0.00s
-[2019.12.06-03.54.04:046][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.12.06-03.54.04:046][  0]LogCook: Display: Mobile HDR setting 1
-[2019.12.06-03.54.04:220][  0]SourceControl: Source control is disabled
-[2019.12.06-03.54.04:220][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.06-03.54.04:221][  0]LightingResults: New page: Lighting Build
-[2019.12.06-03.54.04:223][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-03.54.04:224][  0]MapCheck: New page: Map Check
-[2019.12.06-03.54.04:224][  0]LightingResults: New page: Lighting Build
-[2019.12.06-03.54.04:255][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
-[2019.12.06-03.54.04:324][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.12.06-03.54.04:329][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.06-03.54.04:358][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
-[2019.12.06-03.54.04:358][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.06-03.54.04:359][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.17ms to complete.
-[2019.12.06-03.54.04:359][  0]LogFileHelpers: Loading map 'Template_Default' took 0.139
-[2019.12.06-03.54.04:491][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.06-03.54.04:498][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.06-03.54.04:505][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.06-03.54.04:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.06-03.54.04:518][  0]LogCollectionManager: Loaded 0 collections in 0.001937 seconds
-[2019.12.06-03.54.04:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Collections/' took 0.00s
-[2019.12.06-03.54.04:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/Developers/ToeKnee/Collections/' took 0.00s
-[2019.12.06-03.54.04:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/Collections/' took 0.00s
-[2019.12.06-03.54.04:524][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2019.12.06-03.54.04:532][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2863 classes and 680 folders.
-[2019.12.06-03.54.04:539][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.12.06-03.54.04:575][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.12.06-03.54.04:579][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.12.06-03.54.04:633][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.12.06-03.54.04:635][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.12.06-03.54.04:639][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.12.06-03.54.04:703][  0]LogRenderer: Reallocating scene render targets to support 984x440 Format 10 NumSamples 1 (Frame:1).
-[2019.12.06-03.54.04:819][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.12.06-03.54.04:819][  0]LogLoad: (Engine Initialization) Total time: 6.97 seconds
-[2019.12.06-03.54.04:819][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.12.06-03.54.05:023][  0]LogAssetRegistry: Asset discovery search completed in 3.8863 seconds
-[2019.12.06-03.54.05:027][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2019.12.06-03.54.05:027][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
-[2019.12.06-03.54.05:027][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.12.06-03.54.05:047][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.06-03.54.08:894][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.06-03.54.11:013][351]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.06-03.54.20:056][351]LogSlate: Window 'Pick Parent Class' being destroyed
-[2019.12.06-03.54.31:606][ 41]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/main_menu.main_menu
-[2019.12.06-03.54.31:846][ 41]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
-[2019.12.06-03.54.32:953][ 41]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.12.06-03.54.34:432][128]LogSlate: Window 'main_menu' being destroyed
-[2019.12.06-03.54.34:442][128]LogSlate: Window 'main_menu' being destroyed
-[2019.12.06-03.54.34:444][128]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-03.54.34:463][128]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-03.55.18:773][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\exitBTNsmallHovered.TGA)
-[2019.12.06-03.55.18:777][127]LogTexture: Display: Building textures: exitBTNsmallHovered (BGRA8, 385X91)
-[2019.12.06-03.55.18:802][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\logoIMG.TGA)
-[2019.12.06-03.55.18:812][127]LogTexture: Display: Building textures: logoIMG (BGRA8, 1475X855)
-[2019.12.06-03.55.18:842][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\quitBTNsmallClicked.TGA)
-[2019.12.06-03.55.18:844][127]LogTexture: Display: Building textures: quitBTNsmallClicked (BGRA8, 385X91)
-[2019.12.06-03.55.18:853][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\quitBTNsmallHovered.TGA)
-[2019.12.06-03.55.18:854][127]LogTexture: Display: Building textures: quitBTNsmallHovered (BGRA8, 385X91)
-[2019.12.06-03.55.18:871][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\splash.TGA)
-[2019.12.06-03.55.18:891][127]LogTexture: Display: Building textures: splash (BC5, 1280X720)
-[2019.12.06-03.55.18:962][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\startBTNsmall.TGA)
-[2019.12.06-03.55.18:964][127]LogTexture: Display: Building textures: startBTNsmall (BGRA8, 385X91)
-[2019.12.06-03.55.18:975][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\startBTNsmallClicked.TGA)
-[2019.12.06-03.55.18:976][127]LogTexture: Display: Building textures: startBTNsmallClicked (BGRA8, 385X91)
-[2019.12.06-03.55.18:987][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\startBTNsmallHovered.TGA)
-[2019.12.06-03.55.18:989][127]LogTexture: Display: Building textures: startBTNsmallHovered (BGRA8, 385X91)
-[2019.12.06-03.55.19:000][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\exitBTNsmall.TGA)
-[2019.12.06-03.55.19:001][127]LogTexture: Display: Building textures: exitBTNsmall (BGRA8, 385X91)
-[2019.12.06-03.55.19:013][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Toe-Knee\Desktop\exitBTNsmallClicked.TGA)
-[2019.12.06-03.55.19:014][127]LogTexture: Display: Building textures: exitBTNsmallClicked (BGRA8, 385X91)
-[2019.12.06-03.55.35:547][112]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/main_menu.main_menu
-[2019.12.06-03.58.58:256][500]BlueprintLog: New page: Compile main_menu
-[2019.12.06-03.58.58:529][500]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
-[2019.12.06-03.59.37:809][832]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/MENU_IMAGES/splash.splash
-[2019.12.06-03.59.37:823][832]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.12.06-03.59.50:146][544]LogTexture: Display: Building textures: splash (BC6H, 1280X720)
-[2019.12.06-03.59.53:635][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MENU_IMAGES/splash" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/splash.uasset" SILENT=true
-[2019.12.06-03.59.53:696][741]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/splashA541452F4190730272504997AEA4257B.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/splash.uasset'
-[2019.12.06-03.59.55:906][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MENU_IMAGES/splash" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/splash.uasset" SILENT=true
-[2019.12.06-03.59.55:927][870]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/splashAAEC78B3471BB6393F3E80864686BA8A.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/splash.uasset'
-[2019.12.06-03.59.58:198][  5]LogSlate: Window 'splash' being destroyed
-[2019.12.06-03.59.58:217][  5]LogSlate: Window 'splash' being destroyed
-[2019.12.06-03.59.58:223][  5]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-03.59.58:274][  5]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.00.00:126][107]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/main_menu.main_menu
-[2019.12.06-04.00.35:934][187]LogEditorTransaction: Undo Move Widget
-[2019.12.06-04.01.08:177][ 33]LogEditorTransaction: Undo Move Widget
-[2019.12.06-04.01.09:052][ 83]LogEditorTransaction: Undo Resize Widget
-[2019.12.06-04.01.23:043][915]LogEditorTransaction: Undo Resize Widget
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B258C6BB0-44D5-4AD2-6051-87B73DF935D4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=36f418564a4062560651e3899a34cffe%7C9a567cdf30144502a6769470bc3be6be%7C415c8e46-afff-4fcc-b917-1fed47d98311&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: request failed, libcurl error: 0 (No error)
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d23c58ff70 [can pipeline])
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: libcurl info message cache 1 (Re-using existing connection! (#3) with host datarouter.ol.epicgames.com)
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.3.191.118) port 443 (#3))
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: libcurl info message cache 3 (We are completely uploaded and fine)
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: libcurl info message cache 7 (Closing connection 3)
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: 000001D2356FE700: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2019.12.06-04.02.04:897][944]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B258C6BB0-44D5-4AD2-6051-87B73DF935D4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=36f418564a4062560651e3899a34cffe%7C9a567cdf30144502a6769470bc3be6be%7C415c8e46-afff-4fcc-b917-1fed47d98311&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2019.12.06-04.02.15:661][539]LogEditorTransaction: Undo Move Widget
-[2019.12.06-04.03.01:163][180]LogTexture: Display: Building textures: car2_0 (BGRA8, 256X1)
-[2019.12.06-04.03.52:831][191]BlueprintLog: New page: Compile main_menu
-[2019.12.06-04.03.53:147][191]LogUObjectHash: Compacting FUObjectHashTables data took   7.80ms
-[2019.12.06-04.05.13:131][988]BlueprintLog: New page: Compile main_menu
-[2019.12.06-04.05.13:362][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
-[2019.12.06-04.05.27:844][944]BlueprintLog: New page: Compile main_menu
-[2019.12.06-04.05.28:016][944]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
-[2019.12.06-04.07.12:953][964]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.12.06-04.09.58:672][672]BlueprintLog: New page: Compile main_menu
-[2019.12.06-04.09.58:856][672]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
-[2019.12.06-04.10.19:743][120]BlueprintLog: New page: Compile main_menu
-[2019.12.06-04.10.19:933][120]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
-[2019.12.06-04.10.21:830][322]LogSlate: Window 'main_menu' being destroyed
-[2019.12.06-04.10.21:842][322]LogSlate: Window 'main_menu' being destroyed
-[2019.12.06-04.10.21:845][322]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.10.21:880][322]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.10.32:888][622]LogTemp: Repeating last play command: Selected Viewport
-[2019.12.06-04.10.32:904][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
-[2019.12.06-04.10.32:904][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.06-04.10.32:904][622]PIE: New page: PIE session: Untitled_1 (Dec 5, 2019, 12:10:32 PM)
-[2019.12.06-04.10.32:906][622]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.12.06-04.10.32:907][622]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2019.12.06-04.10.32:910][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002762s)
-[2019.12.06-04.10.32:910][622]LogAIModule: Creating AISystem for world Untitled_1
-[2019.12.06-04.10.32:911][622]LogPlayLevel: PIE: World Init took: (0.001092s)
-[2019.12.06-04.10.32:911][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004159s)
-[2019.12.06-04.10.32:948][622]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
-[2019.12.06-04.10.32:954][622]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.12.06-04.10.33:061][622]LogInit: FAudioDevice initialized.
-[2019.12.06-04.10.33:076][622]LogLoad: Game class is 'GameModeBase'
-[2019.12.06-04.10.33:079][622]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2019.12.05-20.10.33
-[2019.12.06-04.10.33:079][622]LogWorld: Bringing up level for play took: 0.000989
-[2019.12.06-04.10.33:079][622]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2019.12.06-04.10.33:098][622]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
-[2019.12.06-04.10.33:100][622]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.119
-[2019.12.06-04.10.33:100][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
-[2019.12.06-04.10.39:885][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
-[2019.12.06-04.10.39:885][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.06-04.10.39:885][377]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
-[2019.12.06-04.10.39:886][377]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.10.39:898][377]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.06-04.10.39:898][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
-[2019.12.06-04.10.39:953][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.06-04.10.39:988][377]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
-[2019.12.06-04.10.40:006][378]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.12.06-04.10.52:847][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.12.06-04.11.24:199][625]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
-[2019.12.06-04.11.24:199][625]LogMetaData: Removing '/Game/start_menu.SKEL_start_menu_C' ref from Metadata '/Game/start_meny.PackageMetaData'
-[2019.12.06-04.11.24:199][625]LogMetaData: Removing '/Game/start_menu.start_menu_C' ref from Metadata '/Game/start_meny.PackageMetaData'
-[2019.12.06-04.11.24:199][625]LogMetaData: Removing '/Game/start_menu.start_menu:PersistentLevel.start_menu.EventGraph.K2Node_Event_0' ref from Metadata '/Game/start_meny.PackageMetaData'
-[2019.12.06-04.11.24:199][625]LogMetaData: Removing '/Game/start_menu.start_menu:PersistentLevel.start_menu.EventGraph.K2Node_Event_1' ref from Metadata '/Game/start_meny.PackageMetaData'
-[2019.12.06-04.11.24:236][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/start_menu" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.12.06-04.11.24:272][625]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
-[2019.12.06-04.11.24:411][625]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/start_menu54D3F3B74C04316970C69886A8B13731.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap'
-[2019.12.06-04.11.24:423][625]LogFileHelpers: Saving map 'start_menu' took 0.187
-[2019.12.06-04.11.24:601][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
-[2019.12.06-04.11.24:636][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
-[2019.12.06-04.11.24:668][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
-[2019.12.06-04.11.26:818][858]LogAssetEditorManager: Opening Asset editor for World /Game/start_menu.start_menu
-[2019.12.06-04.11.26:846][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2019.12.06-04.11.30:358][858]LogSlate: Window 'Save Content' being destroyed
-[2019.12.06-04.11.30:387][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/main_menu" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/main_menu.uasset" SILENT=true
-[2019.12.06-04.11.30:404][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/main_menu5A9605FD45052B4B5E9FC898DB873F8B.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/main_menu.uasset'
-[2019.12.06-04.11.30:408][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MENU_IMAGES/exitBTNsmall" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/exitBTNsmall.uasset" SILENT=true
-[2019.12.06-04.11.30:418][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/exitBTNsmallCD9DED164D9FECF0DCF779B24B7AC51E.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/exitBTNsmall.uasset'
-[2019.12.06-04.11.30:431][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/exitBTNsmallClickedA18E36274864E0BAC7428AA44314B2B1.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/exitBTNsmallClicked.uasset'
-[2019.12.06-04.11.30:444][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/exitBTNsmallHoveredE7F6BAE049CC0F92F4F9AA966426A073.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/exitBTNsmallHovered.uasset'
-[2019.12.06-04.11.30:449][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MENU_IMAGES/logoIMG" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/logoIMG.uasset" SILENT=true
-[2019.12.06-04.11.30:528][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/logoIMGED5864CB4DEDE2BC4F2C6BA044F0B3B7.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/logoIMG.uasset'
-[2019.12.06-04.11.30:558][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/quitBTNsmallClickedFDE8255948A5A70E8DB400865EBC1C27.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/quitBTNsmallClicked.uasset'
-[2019.12.06-04.11.30:589][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/quitBTNsmallHoveredEEAD920C4579F18348E92193D3492440.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/quitBTNsmallHovered.uasset'
-[2019.12.06-04.11.30:598][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MENU_IMAGES/startBTNsmall" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/startBTNsmall.uasset" SILENT=true
-[2019.12.06-04.11.30:623][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/startBTNsmall814426234CF677A77C32EEB90B547E5F.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/startBTNsmall.uasset'
-[2019.12.06-04.11.30:656][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/startBTNsmallClicked9D92342C472EB06D220F4F93175B3233.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/startBTNsmallClicked.uasset'
-[2019.12.06-04.11.30:689][858]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/startBTNsmallHovered06C0EBA042B72052320512A0BF403397.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/MENU_IMAGES/startBTNsmallHovered.uasset'
-[2019.12.06-04.11.30:707][858]Cmd: MAP LOAD FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.06-04.11.30:707][858]LightingResults: New page: Lighting Build
-[2019.12.06-04.11.30:710][858]LoadErrors: New page: Loading map: start_menu.umap
-[2019.12.06-04.11.30:710][858]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.11.30:711][858]MapCheck: New page: Map Check
-[2019.12.06-04.11.30:711][858]LightingResults: New page: Lighting Build
-[2019.12.06-04.11.30:762][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
-[2019.12.06-04.11.30:821][858]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.06-04.11.30:821][858]LogAIModule: Creating AISystem for world start_menu
-[2019.12.06-04.11.30:856][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
-[2019.12.06-04.11.30:884][858]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.06-04.11.30:885][858]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.14ms to complete.
-[2019.12.06-04.11.30:886][858]LogFileHelpers: Loading map 'start_menu' took 0.181
-[2019.12.06-04.11.34:621][269]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.12.06-04.11.59:005][175]LogAssetEditorManager: Opening Asset editor for World /Game/start_menu.start_menu
-[2019.12.06-04.11.59:039][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
-[2019.12.06-04.11.59:040][175]Cmd: MAP LOAD FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.06-04.11.59:042][175]LightingResults: New page: Lighting Build
-[2019.12.06-04.11.59:042][175]LoadErrors: New page: Loading map: start_menu.umap
-[2019.12.06-04.11.59:042][175]LogWorld: UWorld::CleanupWorld for start_menu, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.11.59:044][175]MapCheck: New page: Map Check
-[2019.12.06-04.11.59:044][175]LightingResults: New page: Lighting Build
-[2019.12.06-04.11.59:078][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
-[2019.12.06-04.11.59:081][175]LogAIModule: Creating AISystem for world start_menu
-[2019.12.06-04.11.59:136][175]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.06-04.11.59:169][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
-[2019.12.06-04.11.59:196][175]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.06-04.11.59:196][175]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.125ms to complete.
-[2019.12.06-04.11.59:198][175]LogFileHelpers: Loading map 'start_menu' took 0.159
-[2019.12.06-04.12.06:241][  2]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.12.06-04.13.17:715][909]LogAssetEditorManager: Opening Asset editor for World /Game/start_menu.start_menu
-[2019.12.06-04.13.17:747][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
-[2019.12.06-04.13.17:748][909]Cmd: MAP LOAD FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.06-04.13.17:749][909]LightingResults: New page: Lighting Build
-[2019.12.06-04.13.17:750][909]LoadErrors: New page: Loading map: start_menu.umap
-[2019.12.06-04.13.17:750][909]LogWorld: UWorld::CleanupWorld for start_menu, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.13.17:750][909]MapCheck: New page: Map Check
-[2019.12.06-04.13.17:750][909]LightingResults: New page: Lighting Build
-[2019.12.06-04.13.17:782][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
-[2019.12.06-04.13.17:785][909]LogAIModule: Creating AISystem for world start_menu
-[2019.12.06-04.13.17:841][909]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.06-04.13.17:873][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
-[2019.12.06-04.13.17:901][909]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.06-04.13.17:902][909]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.132ms to complete.
-[2019.12.06-04.13.17:903][909]LogFileHelpers: Loading map 'start_menu' took 0.155
-[2019.12.06-04.13.25:675][817]LogAssetEditorManager: Opening Asset editor for World /Game/start_menu.start_menu
-[2019.12.06-04.13.25:701][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
-[2019.12.06-04.13.25:702][817]Cmd: MAP LOAD FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.06-04.13.25:704][817]LightingResults: New page: Lighting Build
-[2019.12.06-04.13.25:704][817]LoadErrors: New page: Loading map: start_menu.umap
-[2019.12.06-04.13.25:704][817]LogWorld: UWorld::CleanupWorld for start_menu, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.13.25:704][817]MapCheck: New page: Map Check
-[2019.12.06-04.13.25:704][817]LightingResults: New page: Lighting Build
-[2019.12.06-04.13.25:734][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
-[2019.12.06-04.13.25:737][817]LogAIModule: Creating AISystem for world start_menu
-[2019.12.06-04.13.25:794][817]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.06-04.13.25:821][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
-[2019.12.06-04.13.25:874][817]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.06-04.13.25:875][817]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.255ms to complete.
-[2019.12.06-04.13.25:877][817]LogFileHelpers: Loading map 'start_menu' took 0.176
-[2019.12.06-04.13.29:234][199]LogAssetEditorManager: Opening Asset editor for World /Game/start_menu.start_menu
-[2019.12.06-04.13.29:262][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
-[2019.12.06-04.13.29:264][199]Cmd: MAP LOAD FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.06-04.13.29:264][199]LightingResults: New page: Lighting Build
-[2019.12.06-04.13.29:264][199]LoadErrors: New page: Loading map: start_menu.umap
-[2019.12.06-04.13.29:264][199]LogWorld: UWorld::CleanupWorld for start_menu, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.13.29:264][199]MapCheck: New page: Map Check
-[2019.12.06-04.13.29:264][199]LightingResults: New page: Lighting Build
-[2019.12.06-04.13.29:294][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2019.12.06-04.13.29:297][199]LogAIModule: Creating AISystem for world start_menu
-[2019.12.06-04.13.29:372][199]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.06-04.13.29:405][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
-[2019.12.06-04.13.29:448][199]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.06-04.13.29:448][199]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.208ms to complete.
-[2019.12.06-04.13.29:450][199]LogFileHelpers: Loading map 'start_menu' took 0.188
-[2019.12.06-04.14.08:674][271]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/main_menu.main_menu
-[2019.12.06-04.14.27:970][475]LogSlate: Window 'main_menu' being destroyed
-[2019.12.06-04.14.27:982][475]LogSlate: Window 'main_menu' being destroyed
-[2019.12.06-04.14.27:984][475]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.14.28:012][475]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.14.33:916][160]LogAssetEditorManager: Opening Asset editor for World /Game/start_menu.start_menu
-[2019.12.06-04.14.33:948][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
-[2019.12.06-04.14.33:949][160]Cmd: MAP LOAD FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.06-04.14.33:949][160]LightingResults: New page: Lighting Build
-[2019.12.06-04.14.33:949][160]LoadErrors: New page: Loading map: start_menu.umap
-[2019.12.06-04.14.33:950][160]LogWorld: UWorld::CleanupWorld for start_menu, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.14.33:950][160]MapCheck: New page: Map Check
-[2019.12.06-04.14.33:950][160]LightingResults: New page: Lighting Build
-[2019.12.06-04.14.33:983][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
-[2019.12.06-04.14.33:987][160]LogAIModule: Creating AISystem for world start_menu
-[2019.12.06-04.14.34:081][160]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.06-04.14.34:117][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
-[2019.12.06-04.14.34:148][160]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.06-04.14.34:148][160]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.115ms to complete.
-[2019.12.06-04.14.34:149][160]LogFileHelpers: Loading map 'start_menu' took 0.201
-[2019.12.06-04.15.06:569][ 29]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.12.06-04.15.17:313][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/start_menu" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.12.06-04.15.17:347][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
-[2019.12.06-04.15.17:500][310]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/start_menuE979523F4FD4B08AA5FF119562AD098A.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap'
-[2019.12.06-04.15.24:210][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
-[2019.12.06-04.15.24:362][ 83]LogSlate: Window 'crossyroad - Unreal Editor' being destroyed
-[2019.12.06-04.15.24:364][ 83]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.12.06-04.15.24:500][ 84]Cmd: QUIT_EDITOR
-[2019.12.06-04.15.24:754][ 84]LogExit: Preparing to exit.
-[2019.12.06-04.15.25:514][ 84]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2019.12.06-04.15.25:523][ 84]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
-[2019.12.06-04.15.25:523][ 84]LogExit: Editor shut down
-[2019.12.06-04.15.25:524][ 84]LogExit: Transaction tracking system shut down
-[2019.12.06-04.15.25:818][ 84]LogExit: Object subsystem successfully closed.
-[2019.12.06-04.15.25:851][ 84]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (680)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module Voice (678)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module TextureEditor (676)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module SequencerWidgets (674)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module BlueprintGraph (672)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (670)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module SceneOutliner (668)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module AddContentDialog (666)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module WidgetCarousel (665)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module EditorWidgets (662)
-[2019.12.06-04.15.25:902][ 84]LogModuleManager: Shutting down and abandoning module CollectionManager (660)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (658)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module StatsViewer (656)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (654)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module FoliageEdit (652)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module LandscapeEditor (650)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module MeshPaintMode (648)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (646)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module ActorPickerMode (644)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module GeometryMode (642)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module TextureAlignMode (640)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module BspMode (638)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (636)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (634)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module AutomationWorker (632)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module OculusMR (630)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (628)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (626)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (624)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module PlacementMode (623)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module MaterialEditor (622)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (618)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (616)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (614)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (612)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (610)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module WebMMedia (608)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (606)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (604)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module SequenceRecorder (603)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (600)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (598)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (596)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (594)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (592)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (590)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (588)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (586)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (584)
-[2019.12.06-04.15.25:903][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (582)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (580)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module CharacterAI (578)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module SmartSnapping (576)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module SessionServices (574)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module MeshPaint (572)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module ViewportSnapping (570)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module ViewportInteraction (568)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module ClothPainter (566)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (565)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module LogVisualizer (562)
-[2019.12.06-04.15.25:904][ 84]LogModuleManager: Shutting down and abandoning module IntroTutorials (560)
-[2019.12.06-04.15.25:905][ 84]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (559)
-[2019.12.06-04.15.25:905][ 84]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (556)
-[2019.12.06-04.15.25:905][ 84]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (554)
-[2019.12.06-04.15.25:905][ 84]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (552)
-[2019.12.06-04.15.25:905][ 84]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (550)
-[2019.12.06-04.15.25:905][ 84]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (549)
-[2019.12.06-04.15.26:603][ 84]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (546)
-[2019.12.06-04.15.26:603][ 84]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (544)
-[2019.12.06-04.15.26:603][ 84]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (542)
-[2019.12.06-04.15.26:603][ 84]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (540)
-[2019.12.06-04.15.26:603][ 84]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (538)
-[2019.12.06-04.15.26:603][ 84]LogModuleManager: Shutting down and abandoning module InputBindingEditor (536)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module MergeActors (534)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (532)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module LocalizationService (531)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module HardwareTargeting (528)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (526)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module UndoHistory (524)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module XmlParser (522)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module Blutility (520)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (518)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (517)
-[2019.12.06-04.15.26:604][ 84]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (514)
-[2019.12.06-04.15.26:605][ 84]LogModuleManager: Shutting down and abandoning module SettingsEditor (512)
-[2019.12.06-04.15.26:605][ 84]LogModuleManager: Shutting down and abandoning module ProjectLauncher (510)
-[2019.12.06-04.15.26:605][ 84]LogModuleManager: Shutting down and abandoning module SessionFrontend (508)
-[2019.12.06-04.15.26:605][ 84]LogModuleManager: Shutting down and abandoning module ProfilerClient (506)
-[2019.12.06-04.15.26:605][ 84]LogModuleManager: Shutting down and abandoning module DeviceManager (504)
-[2019.12.06-04.15.26:605][ 84]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (503)
-[2019.12.06-04.15.26:649][ 84]LogModuleManager: Shutting down and abandoning module AutomationController (500)
-[2019.12.06-04.15.26:649][ 84]LogModuleManager: Shutting down and abandoning module AutomationWindow (498)
-[2019.12.06-04.15.26:649][ 84]LogModuleManager: Shutting down and abandoning module Layers (496)
-[2019.12.06-04.15.26:649][ 84]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (494)
-[2019.12.06-04.15.26:649][ 84]LogModuleManager: Shutting down and abandoning module DetailCustomizations (492)
-[2019.12.06-04.15.26:649][ 84]LogModuleManager: Shutting down and abandoning module PackagesDialog (490)
-[2019.12.06-04.15.26:649][ 84]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (488)
-[2019.12.06-04.15.26:649][ 84]LogModuleManager: Shutting down and abandoning module Persona (486)
-[2019.12.06-04.15.26:650][ 84]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (485)
-[2019.12.06-04.15.26:650][ 84]LogModuleManager: Shutting down and abandoning module AnimGraph (483)
-[2019.12.06-04.15.26:650][ 84]LogModuleManager: Shutting down and abandoning module Kismet (480)
-[2019.12.06-04.15.26:663][ 84]LogModuleManager: Shutting down and abandoning module KismetWidgets (479)
-[2019.12.06-04.15.26:663][ 84]LogModuleManager: Shutting down and abandoning module GraphEditor (476)
-[2019.12.06-04.15.26:664][ 84]LogModuleManager: Shutting down and abandoning module StructViewer (474)
-[2019.12.06-04.15.26:664][ 84]LogModuleManager: Shutting down and abandoning module ClassViewer (472)
-[2019.12.06-04.15.26:667][ 84]LogModuleManager: Shutting down and abandoning module Toolbox (470)
-[2019.12.06-04.15.26:667][ 84]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
-[2019.12.06-04.15.26:667][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
-[2019.12.06-04.15.26:667][ 84]LogModuleManager: Shutting down and abandoning module OutputLog (464)
-[2019.12.06-04.15.26:668][ 84]LogModuleManager: Shutting down and abandoning module GammaUI (462)
-[2019.12.06-04.15.26:668][ 84]LogModuleManager: Shutting down and abandoning module Documentation (460)
-[2019.12.06-04.15.26:668][ 84]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module MovieScene (452)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module PortalServices (444)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module AIModule (438)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
-[2019.12.06-04.15.26:669][ 84]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
-[2019.12.06-04.15.26:670][ 84]LogModuleManager: Shutting down and abandoning module DesktopPlatform (430)
-[2019.12.06-04.15.26:670][ 84]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (428)
-[2019.12.06-04.15.26:679][ 84]LogModuleManager: Shutting down and abandoning module ProfilerService (426)
-[2019.12.06-04.15.26:732][ 84]LogModuleManager: Shutting down and abandoning module TaskGraph (424)
-[2019.12.06-04.15.26:732][ 84]LogModuleManager: Shutting down and abandoning module ScreenshotTools (422)
-[2019.12.06-04.15.26:732][ 84]LogModuleManager: Shutting down and abandoning module SteamVRController (420)
-[2019.12.06-04.15.26:732][ 84]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (418)
-[2019.12.06-04.15.26:732][ 84]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (416)
-[2019.12.06-04.15.26:732][ 84]LogModuleManager: Shutting down and abandoning module OculusEditor (414)
-[2019.12.06-04.15.26:732][ 84]LogModuleManager: Shutting down and abandoning module OculusInput (412)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (410)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module EditableMesh (408)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (406)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module CableComponent (404)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module AudioCapture (402)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (400)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (398)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module AppleImageUtils (396)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module AndroidPermission (394)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (392)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (390)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module MediaCompositing (388)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module ImgMedia (386)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module HTML5Networking (378)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (376)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (374)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module BackChannel (372)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (370)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module AutomationUtils (368)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module AlembicImporter (366)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module AlembicLibrary (365)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module GeometryCache (364)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (363)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module VariantManagerContent (358)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (356)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (354)
-[2019.12.06-04.15.26:733][ 84]LogModuleManager: Shutting down and abandoning module PluginBrowser (352)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (350)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (348)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module CurveEditorTools (346)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module CurveEditor (345)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (342)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module CryptoKeys (340)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (338)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (330)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module GitSourceControl (328)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module SourceControl (327)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (322)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (320)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (318)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (316)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (314)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (312)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module Paper2DEditor (310)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
-[2019.12.06-04.15.26:735][ 84]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
-[2019.12.06-04.15.26:837][ 84]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
-[2019.12.06-04.15.26:938][ 84]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module DataValidation (272)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
-[2019.12.06-04.15.26:938][ 84]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2019.12.06-04.15.26:939][ 84]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2019.12.06-04.15.26:939][ 84]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
-[2019.12.06-04.15.26:940][ 84]LogModuleManager: Shutting down and abandoning module MainFrame (264)
-[2019.12.06-04.15.26:940][ 84]LogModuleManager: Shutting down and abandoning module HotReload (263)
-[2019.12.06-04.15.26:941][ 84]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
-[2019.12.06-04.15.26:941][ 84]LogModuleManager: Shutting down and abandoning module TreeMap (257)
-[2019.12.06-04.15.26:941][ 84]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
-[2019.12.06-04.15.26:941][ 84]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.12.06-04.15.26:941][ 84]LogModuleManager: Shutting down and abandoning module Paper2D (250)
-[2019.12.06-04.15.26:941][ 84]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module Overlay (234)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module VREditor (230)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module UMG (216)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module Sequencer (214)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module MessageLog (211)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module Slate (204)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
-[2019.12.06-04.15.26:944][ 84]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.12.06-04.15.26:946][ 84]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
-[2019.12.06-04.15.26:946][ 84]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2019.12.06-04.15.26:946][ 84]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
-[2019.12.06-04.15.26:946][ 84]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
-[2019.12.06-04.15.26:946][ 84]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
-[2019.12.06-04.15.26:946][ 84]LogModuleManager: Shutting down and abandoning module Networking (188)
-[2019.12.06-04.15.26:946][ 84]LogModuleManager: Shutting down and abandoning module Core (186)
-[2019.12.06-04.15.26:946][ 84]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.12.06-04.15.26:947][ 84]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.12.06-04.15.26:947][ 84]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.12.06-04.15.26:947][ 84]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.12.06-04.15.26:947][ 84]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
-[2019.12.06-04.15.26:947][ 84]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.12.06-04.15.26:947][ 84]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
-[2019.12.06-04.15.26:947][ 84]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
-[2019.12.06-04.15.26:947][ 84]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
-[2019.12.06-04.15.26:947][ 84]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
-[2019.12.06-04.15.27:007][ 84]LogDerivedDataCache: Shutdown
-[2019.12.06-04.15.27:007][ 84]LogModuleManager: Shutting down and abandoning module XGEController (162)
-[2019.12.06-04.15.27:007][ 84]LogXGEController: Cleaning working directory: C:/Users/Toe-Knee/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.12.06-04.15.27:007][ 84]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
-[2019.12.06-04.15.27:008][ 84]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
-[2019.12.06-04.15.27:008][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
-[2019.12.06-04.15.27:009][ 84]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
-[2019.12.06-04.15.27:011][ 84]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
-[2019.12.06-04.15.27:011][ 84]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
-[2019.12.06-04.15.27:011][ 84]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
-[2019.12.06-04.15.27:011][ 84]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
-[2019.12.06-04.15.27:011][ 84]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
-[2019.12.06-04.15.27:013][ 84]LogModuleManager: Shutting down and abandoning module Messaging (117)
-[2019.12.06-04.15.27:013][ 84]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
-[2019.12.06-04.15.27:014][ 84]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
-[2019.12.06-04.15.27:015][ 84]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
-[2019.12.06-04.15.27:031][ 84]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
-[2019.12.06-04.15.27:031][ 84]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module InputCore (90)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module Settings (88)
-[2019.12.06-04.15.27:032][ 84]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2019.12.06-04.15.27:033][ 84]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.12.06-04.15.27:033][ 84]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
-[2019.12.06-04.15.27:033][ 84]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
-[2019.12.06-04.15.27:033][ 84]LogModuleManager: Shutting down and abandoning module SteamVR (78)
-[2019.12.06-04.15.27:033][ 84]LogHMD: Freeing OpenVRDLLHandle.
-[2019.12.06-04.15.27:033][ 84]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
-[2019.12.06-04.15.27:033][ 84]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
-[2019.12.06-04.15.27:033][ 84]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
-[2019.12.06-04.15.27:033][ 84]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2019.12.06-04.15.27:033][ 84]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
-[2019.12.06-04.15.27:035][ 84]LogModuleManager: Shutting down and abandoning module XMPP (61)
-[2019.12.06-04.15.27:035][ 84]LogModuleManager: Shutting down and abandoning module WebSockets (60)
-[2019.12.06-04.15.27:049][ 84]LogModuleManager: Shutting down and abandoning module HTTP (57)
-[2019.12.06-04.15.27:049][ 84]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.12.06-04.15.27:049][ 84]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B258C6BB0-44D5-4AD2-6051-87B73DF935D4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=36f418564a4062560651e3899a34cffe%7C9a567cdf30144502a6769470bc3be6be%7C415c8e46-afff-4fcc-b917-1fed47d98311&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.12.06-04.15.27:064][ 84]LogModuleManager: Shutting down and abandoning module SSL (56)
-[2019.12.06-04.15.27:068][ 84]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
-[2019.12.06-04.15.27:071][ 84]LogModuleManager: Shutting down and abandoning module Media (51)
-[2019.12.06-04.15.27:073][ 84]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
-[2019.12.06-04.15.27:073][ 84]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
-[2019.12.06-04.15.27:074][ 84]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
-[2019.12.06-04.15.27:074][ 84]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
-[2019.12.06-04.15.27:074][ 84]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2019.12.06-04.15.27:074][ 84]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2019.12.06-04.15.27:074][ 84]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2019.12.06-04.15.27:076][ 84]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2019.12.06-04.15.27:076][ 84]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2019.12.06-04.15.27:076][ 84]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2019.12.06-04.15.27:077][ 84]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2019.12.06-04.15.27:077][ 84]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2019.12.06-04.15.27:078][ 84]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2019.12.06-04.15.27:079][ 84]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2019.12.06-04.15.27:081][ 84]LogD3D11RHI: Shutdown
-[2019.12.06-04.15.27:081][ 84]LogD3D11RHI: CleanupD3DDevice
-[2019.12.06-04.15.27:082][ 84]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.12.06-04.15.27:082][ 84]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.12.06-04.15.27:082][ 84]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.12.06-04.15.27:209][ 84]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.12.06-04.15.27:223][ 84]LogExit: Exiting.
-[2019.12.06-04.15.27:244][ 84]Log file closed, 12/05/19 20:15:27
+[2019.12.06-05.22.19:106][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
+[2019.12.06-05.22.19:107][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.06-05.22.19:107][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
+[2019.12.06-05.22.19:107][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
+[2019.12.06-05.22.19:109][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.06-05.22.19:109][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.06-05.22.19:110][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.06-05.22.19:110][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.06-05.22.19:110][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.06-05.22.19:112][  0]LogHAL: Display: Platform has ~ 16 GB [16899125248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.06-05.22.19:112][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.06-05.22.19:112][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.06-05.22.19:112][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.06-05.22.19:113][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Config/Windows/Engine.ini]
+[2019.12.06-05.22.19:114][  0]LogInit: Computer: DESKTOP-O0M13GT
+[2019.12.06-05.22.19:114][  0]LogInit: User: ToeKnee
+[2019.12.06-05.22.19:114][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.12.06-05.22.19:114][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.06-05.22.19:114][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx)
+[2019.12.06-05.22.19:114][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.06-05.22.19:114][  0]LogMemory: Process Physical Memory: 100.97 MB used, 100.98 MB peak
+[2019.12.06-05.22.19:114][  0]LogMemory: Process Virtual Memory: 101.39 MB used, 101.39 MB peak
+[2019.12.06-05.22.19:114][  0]LogMemory: Physical Memory: 9478.56 MB used,  6637.70 MB free, 16116.26 MB total
+[2019.12.06-05.22.19:114][  0]LogMemory: Virtual Memory: 4686.55 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.12.06-05.22.19:116][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.06-05.22.19:134][  0]LogInit: Using OS detected language (en-US).
+[2019.12.06-05.22.19:134][  0]LogInit: Using OS detected locale (en-US).
+[2019.12.06-05.22.19:135][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.12.06-05.22.19:273][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.06-05.22.19:304][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.06-05.22.19:304][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.06-05.22.19:455][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.06-05.22.19:455][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.06-05.22.19:505][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (Feature Level 11_0)
+[2019.12.06-05.22.19:505][  0]LogD3D11RHI:       4021/0/8058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.06-05.22.19:518][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.12.06-05.22.19:518][  0]LogD3D11RHI:       128/0/8058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.06-05.22.19:520][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.06-05.22.19:520][  0]LogD3D11RHI:       0/0/8058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.06-05.22.19:520][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.06-05.22.19:551][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.06-05.22.19:551][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.12.06-05.22.19:551][  0]LogWindows: EnumDisplayDevices:
+[2019.12.06-05.22.19:551][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.12.06-05.22.19:551][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.12.06-05.22.19:551][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.12.06-05.22.19:552][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.06-05.22.19:552][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti with Max-Q Design
+[2019.12.06-05.22.19:552][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.06-05.22.19:552][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.06-05.22.19:552][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.12.06-05.22.19:582][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.06-05.22.19:593][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.06-05.22.19:849][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.06-05.22.19:856][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.06-05.22.19:864][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.06-05.22.19:871][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.06-05.22.19:879][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.06-05.22.19:887][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.06-05.22.19:894][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.06-05.22.19:902][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.06-05.22.19:906][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.06-05.22.19:932][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.06-05.22.19:934][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.06-05.22.19:949][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.06-05.22.19:949][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.06-05.22.19:961][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.06-05.22.19:961][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.06-05.22.19:967][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.06-05.22.19:973][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.06-05.22.19:979][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.06-05.22.19:986][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.06-05.22.20:008][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.06-05.22.20:008][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.06-05.22.20:008][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.06-05.22.20:016][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.06-05.22.20:063][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Intermediate/Shaders/WorkingDirectory/3008/).
+[2019.12.06-05.22.20:063][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Toe-Knee/AppData/Local/Temp/UnrealShaderWorkingDir/52031BCC4D96A6BCD2691A80B889E144/'.
+[2019.12.06-05.22.20:065][  0]LogXGEController: Cleaning working directory: C:/Users/Toe-Knee/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.12.06-05.22.20:065][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.06-05.22.20:065][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.06-05.22.20:065][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.06-05.22.20:586][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.06-05.22.20:632][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Toe-Knee/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.06-05.22.20:632][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Toe-Knee/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.06-05.22.20:632][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.06-05.22.20:632][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.06-05.22.20:632][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.06-05.22.20:632][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.06-05.22.20:642][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.06-05.22.20:642][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.06-05.22.20:642][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.06-05.22.20:643][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Toe-Knee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.06-05.22.20:643][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.06-05.22.20:643][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.06-05.22.20:661][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.06-05.22.20:663][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.06-05.22.20:663][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.06-05.22.20:709][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2019.12.06-05.22.20:923][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.06-05.22.21:059][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.06-05.22.21:059][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.06-05.22.21:059][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.06-05.22.21:059][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.06-05.22.21:059][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.06-05.22.21:067][  0]LogNetVersion: crossyroad 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3055071226)
+[2019.12.06-05.22.21:452][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.041015 seconds
+[2019.12.06-05.22.21:459][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.06-05.22.21:459][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.06-05.22.21:459][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.06-05.22.22:153][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.06-05.22.22:156][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.06-05.22.22:201][  0]SourceControl: Source control is disabled
+[2019.12.06-05.22.22:201][  0]SourceControl: Source control is disabled
+[2019.12.06-05.22.22:202][  0]SourceControl: Source control is disabled
+[2019.12.06-05.22.22:203][  0]SourceControl: Source control is disabled
+[2019.12.06-05.22.22:277][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.06-05.22.22:359][  0]LogOcInput: OculusInput pre-init called
+[2019.12.06-05.22.22:364][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.06-05.22.22:364][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.06-05.22.22:422][  0]LogEngine: Initializing Engine...
+[2019.12.06-05.22.22:422][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.06-05.22.22:423][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.06-05.22.22:606][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.06-05.22.22:618][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.06-05.22.22:688][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.06-05.22.23:226][  0]LogInit: FAudioDevice initialized.
+[2019.12.06-05.22.23:226][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.06-05.22.23:273][  0]LogDerivedDataCache: Saved boot cache 0.05s 73MB C:/Users/Toe-Knee/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.06-05.22.23:281][  0]LogInit: Texture streaming: Enabled
+[2019.12.06-05.22.23:297][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.06-05.22.23:354][  0]LogInit: Transaction tracking system initialized
+[2019.12.06-05.22.23:382][  0]BlueprintLog: New page: Editor Load
+[2019.12.06-05.22.23:451][  0]LocalizationService: Localization service is disabled
+[2019.12.06-05.22.23:646][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/' took 0.00s
+[2019.12.06-05.22.23:646][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.06-05.22.23:646][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.06-05.22.23:795][  0]SourceControl: Source control is disabled
+[2019.12.06-05.22.23:795][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.06-05.22.23:796][  0]LightingResults: New page: Lighting Build
+[2019.12.06-05.22.23:798][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.22.23:798][  0]MapCheck: New page: Map Check
+[2019.12.06-05.22.23:798][  0]LightingResults: New page: Lighting Build
+[2019.12.06-05.22.23:824][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.12.06-05.22.23:887][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.12.06-05.22.23:891][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.06-05.22.23:916][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.12.06-05.22.23:916][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.06-05.22.23:917][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.175ms to complete.
+[2019.12.06-05.22.23:917][  0]LogFileHelpers: Loading map 'Template_Default' took 0.121
+[2019.12.06-05.22.24:009][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.22.24:015][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.22.24:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.22.24:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.22.24:033][  0]LogCollectionManager: Loaded 0 collections in 0.001633 seconds
+[2019.12.06-05.22.24:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/Collections/' took 0.00s
+[2019.12.06-05.22.24:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/Developers/ToeKnee/Collections/' took 0.00s
+[2019.12.06-05.22.24:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/Collections/' took 0.00s
+[2019.12.06-05.22.24:038][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2019.12.06-05.22.24:045][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2863 classes and 680 folders.
+[2019.12.06-05.22.24:050][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.12.06-05.22.24:081][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.12.06-05.22.24:085][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.12.06-05.22.24:133][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.06-05.22.24:134][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.06-05.22.24:137][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.06-05.22.24:192][  0]LogRenderer: Reallocating scene render targets to support 896x440 Format 10 NumSamples 1 (Frame:1).
+[2019.12.06-05.22.24:335][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.12.06-05.22.24:335][  0]LogLoad: (Engine Initialization) Total time: 6.16 seconds
+[2019.12.06-05.22.24:335][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.06-05.22.24:560][  0]LogAssetRegistry: Asset discovery search completed in 3.8519 seconds
+[2019.12.06-05.22.24:563][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2019.12.06-05.22.24:563][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2019.12.06-05.22.24:564][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.06-05.22.24:582][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.06-05.22.28:602][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.06-05.22.28:787][499]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.06-05.22.28:806][499]LogAIModule: Creating AISystem for world start_menu
+[2019.12.06-05.22.28:809][499]LogAssetEditorManager: Opening Asset editor for World /Game/start_menu.start_menu
+[2019.12.06-05.22.28:835][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.12.06-05.22.28:835][499]Cmd: MAP LOAD FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.06-05.22.28:836][499]LightingResults: New page: Lighting Build
+[2019.12.06-05.22.28:836][499]LoadErrors: New page: Loading map: start_menu.umap
+[2019.12.06-05.22.28:836][499]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.22.28:836][499]MapCheck: New page: Map Check
+[2019.12.06-05.22.28:836][499]LightingResults: New page: Lighting Build
+[2019.12.06-05.22.28:862][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.12.06-05.22.28:904][499]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.06-05.22.28:930][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.12.06-05.22.28:951][499]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.06-05.22.28:951][499]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.109ms to complete.
+[2019.12.06-05.22.28:951][499]LogFileHelpers: Loading map 'start_menu' took 0.116
+[2019.12.06-05.22.34:158][102]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/start_menu.start_menu:PersistentLevel.start_menu
+[2019.12.06-05.22.34:361][102]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.12.06-05.22.34:999][102]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.06-05.22.40:180][693]LogLinker: Failed to load '/Game/MENU/start_menu': Can't find file.
+[2019.12.06-05.22.40:181][693]LogLinker: Failed to load '/Game/MENU/start_menu': Can't find file.
+[2019.12.06-05.22.40:201][694]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.06-05.23.10:380][270]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.06-05.24.05:900][152]BlueprintLog: New page: Compile start_menu
+[2019.12.06-05.24.06:058][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.12.06-05.24.08:691][467]LogSlate: Window 'start_menu' being destroyed
+[2019.12.06-05.24.08:696][467]LogSlate: Window 'start_menu' being destroyed
+[2019.12.06-05.24.08:708][467]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.24.12:101][869]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.06-05.24.12:112][869]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.12:112][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.06-05.24.12:112][869]PIE: New page: PIE session: start_menu (Dec 5, 2019, 1:24:12 PM)
+[2019.12.06-05.24.12:113][869]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.12.06-05.24.12:115][869]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_start_menu
+[2019.12.06-05.24.12:116][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000929s)
+[2019.12.06-05.24.12:117][869]LogAIModule: Creating AISystem for world start_menu
+[2019.12.06-05.24.12:117][869]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2019.12.06-05.24.12:117][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/start_menu.start_menu to /Game/UEDPIE_0_start_menu.start_menu (0.001919s)
+[2019.12.06-05.24.12:147][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.12.06-05.24.12:151][869]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.06-05.24.12:224][869]LogInit: FAudioDevice initialized.
+[2019.12.06-05.24.12:232][869]LogLoad: Game class is 'GameModeBase'
+[2019.12.06-05.24.12:234][869]LogWorld: Bringing World /Game/UEDPIE_0_start_menu.start_menu up for play (max tick rate 0) at 2019.12.05-21.24.12
+[2019.12.06-05.24.12:234][869]LogWorld: Bringing up level for play took: 0.000288
+[2019.12.06-05.24.12:234][869]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.12.06-05.24.12:243][869]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2019.12.06-05.24.12:244][869]PIE: Play in editor start time for /Game/UEDPIE_0_start_menu 0.543
+[2019.12.06-05.24.12:244][869]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.15:017][162]LogNet: Browse: /Game/cool_map
+[2019.12.06-05.24.15:017][162]LogLoad: LoadMap: /Game/cool_map
+[2019.12.06-05.24.15:017][162]LogWorld: BeginTearingDown for /Game/UEDPIE_0_start_menu
+[2019.12.06-05.24.15:018][162]LogWorld: UWorld::CleanupWorld for start_menu, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.24.15:083][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.12.06-05.24.15:152][162]LogAIModule: Creating AISystem for world cool_map
+[2019.12.06-05.24.15:153][162]LogLoad: Game class is 'GameModeBase'
+[2019.12.06-05.24.15:154][162]LogWorld: Bringing World /Game/UEDPIE_0_cool_map.cool_map up for play (max tick rate 0) at 2019.12.05-21.24.15
+[2019.12.06-05.24.15:154][162]LogWorld: Bringing up level for play took: 0.000889
+[2019.12.06-05.24.15:157][162]LogLoad: Took 0.140159 seconds to LoadMap(/Game/cool_map)
+[2019.12.06-05.24.19:112][614]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.19:112][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.24.19:112][614]LogWorld: BeginTearingDown for /Game/UEDPIE_0_cool_map
+[2019.12.06-05.24.19:112][614]LogWorld: UWorld::CleanupWorld for cool_map, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.24.19:124][614]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.06-05.24.19:124][614]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.19:161][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.24.19:182][614]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.12.06-05.24.19:211][617]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.12.06-05.24.28:644][748]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.06-05.24.30:288][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.12.06-05.24.30:294][942]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.06-05.24.30:308][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/start_menu" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.06-05.24.30:333][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.12.06-05.24.30:455][942]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/start_menuDD395FEA4F8D99CE51C3DCA92CC76181.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/start_menu.umap'
+[2019.12.06-05.24.30:480][942]LogFileHelpers: Saving map 'start_menu' took 0.173
+[2019.12.06-05.24.32:717][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.06-05.24.32:925][217]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.06-05.24.32:938][217]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.32:938][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.06-05.24.32:938][217]PIE: New page: PIE session: start_menu (Dec 5, 2019, 1:24:32 PM)
+[2019.12.06-05.24.32:938][217]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_start_menu
+[2019.12.06-05.24.32:939][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000749s)
+[2019.12.06-05.24.32:940][217]LogAIModule: Creating AISystem for world start_menu
+[2019.12.06-05.24.32:940][217]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2019.12.06-05.24.32:940][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/start_menu.start_menu to /Game/UEDPIE_0_start_menu.start_menu (0.001627s)
+[2019.12.06-05.24.32:965][217]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.12.06-05.24.32:969][217]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.06-05.24.33:043][217]LogInit: FAudioDevice initialized.
+[2019.12.06-05.24.33:053][217]LogLoad: Game class is 'GameModeBase'
+[2019.12.06-05.24.33:054][217]LogWorld: Bringing World /Game/UEDPIE_0_start_menu.start_menu up for play (max tick rate 0) at 2019.12.05-21.24.33
+[2019.12.06-05.24.33:054][217]LogWorld: Bringing up level for play took: 0.000262
+[2019.12.06-05.24.33:054][217]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.12.06-05.24.33:056][217]PIE: Play in editor start time for /Game/UEDPIE_0_start_menu -0.645
+[2019.12.06-05.24.33:056][217]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.39:171][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.24.39:171][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.39:171][939]LogWorld: BeginTearingDown for /Game/UEDPIE_0_start_menu
+[2019.12.06-05.24.39:171][939]LogWorld: UWorld::CleanupWorld for start_menu, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.24.39:178][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.06-05.24.39:179][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.39:212][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.24.39:215][939]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.12.06-05.24.39:277][946]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.12.06-05.24.40:694][116]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.06-05.24.40:709][116]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.40:709][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.06-05.24.40:709][116]PIE: New page: PIE session: start_menu (Dec 5, 2019, 1:24:40 PM)
+[2019.12.06-05.24.40:709][116]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_start_menu
+[2019.12.06-05.24.40:710][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000752s)
+[2019.12.06-05.24.40:711][116]LogAIModule: Creating AISystem for world start_menu
+[2019.12.06-05.24.40:711][116]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2019.12.06-05.24.40:711][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/start_menu.start_menu to /Game/UEDPIE_0_start_menu.start_menu (0.001676s)
+[2019.12.06-05.24.40:739][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.12.06-05.24.40:743][116]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.06-05.24.40:820][116]LogInit: FAudioDevice initialized.
+[2019.12.06-05.24.40:826][116]LogLoad: Game class is 'GameModeBase'
+[2019.12.06-05.24.40:826][116]LogWorld: Bringing World /Game/UEDPIE_0_start_menu.start_menu up for play (max tick rate 0) at 2019.12.05-21.24.40
+[2019.12.06-05.24.40:826][116]LogWorld: Bringing up level for play took: 0.000256
+[2019.12.06-05.24.40:826][116]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.12.06-05.24.40:828][116]PIE: Play in editor start time for /Game/UEDPIE_0_start_menu -0.872
+[2019.12.06-05.24.40:828][116]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.42:071][259]LogNet: Browse: /Game/cool_map
+[2019.12.06-05.24.42:071][259]LogLoad: LoadMap: /Game/cool_map
+[2019.12.06-05.24.42:071][259]LogWorld: BeginTearingDown for /Game/UEDPIE_0_start_menu
+[2019.12.06-05.24.42:071][259]LogWorld: UWorld::CleanupWorld for start_menu, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.24.42:099][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.12.06-05.24.42:106][259]LogAIModule: Creating AISystem for world cool_map
+[2019.12.06-05.24.42:106][259]LogLoad: Game class is 'GameModeBase'
+[2019.12.06-05.24.42:108][259]LogWorld: Bringing World /Game/UEDPIE_0_cool_map.cool_map up for play (max tick rate 0) at 2019.12.05-21.24.42
+[2019.12.06-05.24.42:108][259]LogWorld: Bringing up level for play took: 0.000950
+[2019.12.06-05.24.42:111][259]LogLoad: Took 0.039625 seconds to LoadMap(/Game/cool_map)
+[2019.12.06-05.24.48:564][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.48:565][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.24.48:565][ 33]LogWorld: BeginTearingDown for /Game/UEDPIE_0_cool_map
+[2019.12.06-05.24.48:565][ 33]LogWorld: UWorld::CleanupWorld for cool_map, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.24.48:573][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.06-05.24.48:573][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.48:608][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.24.48:611][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2019.12.06-05.24.48:672][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.12.06-05.24.50:004][200]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.06-05.24.50:020][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.50:020][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.06-05.24.50:020][200]PIE: New page: PIE session: start_menu (Dec 5, 2019, 1:24:50 PM)
+[2019.12.06-05.24.50:020][200]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_start_menu
+[2019.12.06-05.24.50:021][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000811s)
+[2019.12.06-05.24.50:022][200]LogAIModule: Creating AISystem for world start_menu
+[2019.12.06-05.24.50:022][200]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2019.12.06-05.24.50:022][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/start_menu.start_menu to /Game/UEDPIE_0_start_menu.start_menu (0.001648s)
+[2019.12.06-05.24.50:050][200]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.12.06-05.24.50:055][200]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.06-05.24.50:133][200]LogInit: FAudioDevice initialized.
+[2019.12.06-05.24.50:144][200]LogLoad: Game class is 'GameModeBase'
+[2019.12.06-05.24.50:145][200]LogWorld: Bringing World /Game/UEDPIE_0_start_menu.start_menu up for play (max tick rate 0) at 2019.12.05-21.24.50
+[2019.12.06-05.24.50:145][200]LogWorld: Bringing up level for play took: 0.000269
+[2019.12.06-05.24.50:146][200]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.12.06-05.24.50:148][200]PIE: Play in editor start time for /Game/UEDPIE_0_start_menu 0.447
+[2019.12.06-05.24.50:148][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.51:386][339]LogNet: Browse: /Game/cool_map
+[2019.12.06-05.24.51:387][339]LogLoad: LoadMap: /Game/cool_map
+[2019.12.06-05.24.51:387][339]LogWorld: BeginTearingDown for /Game/UEDPIE_0_start_menu
+[2019.12.06-05.24.51:387][339]LogWorld: UWorld::CleanupWorld for start_menu, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.24.51:415][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.12.06-05.24.51:422][339]LogAIModule: Creating AISystem for world cool_map
+[2019.12.06-05.24.51:422][339]LogLoad: Game class is 'GameModeBase'
+[2019.12.06-05.24.51:424][339]LogWorld: Bringing World /Game/UEDPIE_0_cool_map.cool_map up for play (max tick rate 0) at 2019.12.05-21.24.51
+[2019.12.06-05.24.51:424][339]LogWorld: Bringing up level for play took: 0.000864
+[2019.12.06-05.24.51:426][339]LogLoad: Took 0.039664 seconds to LoadMap(/Game/cool_map)
+[2019.12.06-05.24.53:371][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.53:372][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.24.53:372][572]LogWorld: BeginTearingDown for /Game/UEDPIE_0_cool_map
+[2019.12.06-05.24.53:372][572]LogWorld: UWorld::CleanupWorld for cool_map, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.24.53:380][572]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.06-05.24.53:381][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/start_menu.start_menu:PersistentLevel' has LevelScriptBlueprint '/Game/start_menu.start_menu:PersistentLevel.start_menu' with GeneratedClass '/Game/start_menu.start_menu_C' with ClassGeneratedBy '/Game/start_menu.start_menu:PersistentLevel.start_menu'
+[2019.12.06-05.24.53:413][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-05.24.53:416][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.12.06-05.24.53:475][579]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.12.06-05.25.39:206][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.06-05.25.46:839][  9]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.12.06-05.25.55:763][ 70]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/crossy_game_mode.crossy_game_mode
+[2019.12.06-05.25.56:126][ 70]LogRenderer: Reallocating scene render targets to support 1004x588 Format 10 NumSamples 1 (Frame:1).
+[2019.12.06-05.26.51:269][574]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.06-05.27.00:298][643]LogSlate: Window 'crossy_game_mode' being destroyed
+[2019.12.06-05.27.00:303][643]LogSlate: Window 'crossy_game_mode' being destroyed
+[2019.12.06-05.27.00:321][643]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.28.00:252][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.12.06-05.28.00:270][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/crossy_game_mode" FILE="../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/crossy_game_mode.uasset" SILENT=true
+[2019.12.06-05.28.00:280][ 83]LogSavePackage: Moving '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Saved/crossy_game_mode986521544DDDC416BD8070B7F48EA0D5.tmp' to '../../../../../../Users/Toe-Knee/Documents/GitHub/crossyroad/crossyroad/Content/crossy_game_mode.uasset'
