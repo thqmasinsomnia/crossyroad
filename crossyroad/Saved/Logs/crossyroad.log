@@ -1717,3 +1717,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.06-05.48.48:604][367]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
 [2019.12.06-05.48.52:201][367]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2019.12.06-05.48.52:201][367]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.26:706][856]LogUObjectHash: Compacting FUObjectHashTables data took  11.51ms
+[2019.12.06-05.51.28:385][856]LogSlate: Window 'Save Content' being destroyed
+[2019.12.06-05.51.28:448][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINTS/generator" FILE="../../../../../../Users/thomas/Documents/Unreal Projects/crossyroad/crossyroad/Content/BLUEPRINTS/generator.uasset" SILENT=true
+[2019.12.06-05.51.28:740][856]LogSavePackage: Moving '../../../../../../Users/thomas/Documents/Unreal Projects/crossyroad/crossyroad/Saved/generator75B2325844C42CE24FBAF7964049E861.tmp' to '../../../../../../Users/thomas/Documents/Unreal Projects/crossyroad/crossyroad/Content/BLUEPRINTS/generator.uasset'
+[2019.12.06-05.51.30:727][856]LogSlate: Window 'Save Level As' being destroyed
+[2019.12.06-05.51.32:554][856]LogUObjectHash: Compacting FUObjectHashTables data took  23.02ms
+[2019.12.06-05.51.32:562][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="../../../../../../Users/thomas/Documents/Unreal Projects/crossyroad/crossyroad/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.06-05.51.32:626][856]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2019.12.06-05.51.34:323][856]LogSavePackage: Moving '../../../../../../Users/thomas/Documents/Unreal Projects/crossyroad/crossyroad/Saved/UntitledA721729447050DA518BCEAB2695DE574.tmp' to '../../../../../../Users/thomas/Documents/Unreal Projects/crossyroad/crossyroad/Content/Untitled.umap'
+[2019.12.06-05.51.36:387][856]LogFileHelpers: Saving map 'Untitled' took 5.639
+[2019.12.06-05.51.36:627][856]LogSlate: Window 'crossyroad - Unreal Editor' being destroyed
+[2019.12.06-05.51.40:051][857]Cmd: QUIT_EDITOR
+[2019.12.06-05.51.41:492][857]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.06-05.51.42:148][857]LogExit: Preparing to exit.
+[2019.12.06-05.51.42:711][857]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.42:717][857]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.42:721][857]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.42:725][857]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.42:730][857]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.42:737][857]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.42:764][857]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.42:772][857]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.42:787][857]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.44:991][857]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.12.06-05.51.45:009][857]LogExit: Editor shut down
